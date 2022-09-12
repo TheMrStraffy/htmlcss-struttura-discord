@@ -1,0 +1,269 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  
+}
+
+.debug{
+  background-color: rgba(100, 100, 100, .25);
+  border: 1px solid black;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+.bg-img-one{
+  height: 630px;
+  /* rimuovere */
+}
+
+.container{
+  height: 100%;
+  /* rimuovere  */
+  width: 70%;
+  margin: 0 auto;
+}
+.top-header{
+  height: 80px;
+  /* rimuovere  */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+}
+.top-header .logo{
+  height: 40px;
+  width: 130px;
+  /* rimuovere  */
+}
+
+.top-header nav.menu{
+  height: 40px;
+  width: 540px;
+  /* rimuovere height */
+}
+
+.top-header .accedi{
+  height: 40px;
+  width: 70px;
+  /* rimuovere height */
+}
+
+.bottom-header{
+  display: flex;
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-header h1{
+  width: 70%;
+  height: 60px;
+}
+.bottom-header p{
+  width: 90%;
+  height: 100px;
+}
+
+.bottom-header .buttons{
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.bottom-header .buttons .dwnld-btn{
+  width: 240px;
+  height: 60px;
+  
+}
+.bottom-header .buttons .open-btn{
+  width: 320px;
+  height: 60px;
+  
+}
+
+/* -------------------------------- */
+
+
+/* SECTIONE ONE */
+main .section-one{
+  height: 750px;
+}
+main .section-one .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+main .section-one .container .frog-reading{
+  width: 300px;
+  height: 300px;
+  flex-basis: 60%;
+  text-align: center;
+  
+}
+
+
+main .section-one .container .text-area{
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .section-one .container .text-area h2{
+  width: 100px;
+  height: 100px;
+}
+main .section-one .container .text-area p {
+  width: 100px;
+  height: 100px;
+}
+/* /SECTIONE ONE */
+
+
+/* SECTION TWO */
+
+main .section-two{
+  height: 750px;
+}
+main .section-two .container{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+main .section-two .container .wizard-showing{
+  width: 300px;
+  height: 300px;
+  flex-basis: 60%;
+  text-align: center;
+  
+}
+
+
+main .section-two .container .text-area{
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .section-two .container .text-area h2{
+  width: 100px;
+  height: 100px;
+}
+main .section-two .container .text-area p {
+  width: 100px;
+  height: 100px;
+}
+
+/* /SECTION TWO */
+
+/* SECTION THREE */
+
+main .section-three{
+  height: 750px;
+}
+main .section-three .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+main .section-three .container .book{
+  width: 300px;
+  height: 300px;
+  flex-basis: 60%;
+  text-align: center;
+  
+}
+
+
+main .section-three .container .text-area{
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main .section-three .container .text-area h2{
+  width: 100px;
+  height: 100px;
+}
+main .section-three .container .text-area p {
+  width: 100px;
+  height: 100px;
+}
+
+/* /SECTION THREE */
+
+/* SECTION FOUR */
+
+main .section-four{
+  height: 750px;
+}
+main .section-four .container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+main .section-four .container .book{
+  width: 80%;
+  height: 200px;
+  flex-basis: 50%;
+  text-align: center;
+  
+}
+
+
+main .section-four .container .text-area{
+  flex-basis: 20%;
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+}
+
+main .section-four .container .text-area h2{
+  width: 100px;
+  height: 100px;
+}
+main .section-four .container .text-area p {
+  width: 100px;
+  height: 100px;
+}
+
+main .section-four .container h2{
+  height: 40px;
+  width: 500px;
+  
+}
+main .section-four .container .btn-dwnld-two{
+  height: 60px;
+  width: 240px;
+}
+
+/* /SECTION FOUR */
